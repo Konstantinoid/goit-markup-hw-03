@@ -43,9 +43,9 @@ display: inline-flexbox;
 display: flex;
 }
 .navigation_box {
- margin-left: 93px;
+margin-left: 93px;
 margin-bottom: 32px;
- margin-top: 32px;
+margin-top: 32px;
 }
 
 .header .navigation_box {
@@ -87,10 +87,10 @@ margin-bottom: 32px;
 color: #2196F3;
 }
 .mail_info {
-    display: flex;
-    margin-left: 331px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+display: flex;
+margin-left: 331px;
+margin-top: 32px;
+margin-bottom: 32px;
 }
 .mail_info_displ,
 .phone_info_displ {
@@ -114,7 +114,6 @@ margin-left: 50px;
 margin-top: 32px;
 margin-bottom: 32px;
 text-align: center;
-
 }
 
 .phone_info_displ {
@@ -192,16 +191,16 @@ height: 769px;
 margin: 0 auto;
 } 
 .Content_two {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 98px;
-    margin-left: 215px;
-    margin-right: 215px;
+display: flex;
+justify-content: center;
+align-content: center;
+margin-top: 98px;
+margin-left: 215px;
+margin-right: 215px;
 }
 .list_one {
-    list-style: none;
-    padding-right: 25px;
+list-style: none;
+padding-right: 25px;
 }
 .main_info_header {
 font-family: Roboto;
@@ -244,8 +243,8 @@ align-items: center;
 margin-left: 215px;
 }
 .list_two {
-    list-style: none;
-    align-self: auto;
+list-style: none;
+align-self: auto;
 }
 
                                              /* SHOWOFF */
@@ -351,14 +350,14 @@ color: #757575;
 color: #2196F3; 
 }
 .list_three {
-    list-style: none;
-    align-self: auto;
+list-style: none;
+align-self: auto;
 }    
 .list_three:not(:first-child) {
-    margin-top: 9px;
+margin-top: 9px;
 } 
 .list_three:nth-child(1) {
-    margin-top: 9px;
+margin-top: 9px;
 } 
 .nav_footer {
 display: block;
@@ -409,7 +408,6 @@ margin-left: auto;
 margin-right: auto;
 }   
 .image_box_portpholio {
-disp ;
 }
 .Portpholio_background {
 width: 370px;
@@ -428,13 +426,11 @@ font-size: 18px;
 line-height: 36px;  
 }   
 .Image_portpholio_text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
 color: #757575;
-
 }                         
