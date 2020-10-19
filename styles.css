@@ -82,6 +82,7 @@ color: #212121;
 margin-right: 50px;
 margin-top: 32px;
 margin-bottom: 32px;
+text-decoration: none;
 }
 .navigation_info:hover,
 .navigation_info:focus {
