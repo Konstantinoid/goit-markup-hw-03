@@ -132,7 +132,8 @@ width: 1600px;
 height: 600px;
 margin: 0 auto;
 display: inline-block;
-background-color: rgba(47, 48, 58, 1);
+background-color:rgba(47, 48, 58, 0.4);
+background-image: url(/img/Bk-ground_img/Img_header.jpg);
 }
 .main_info_align{
 display: flex;
@@ -194,15 +195,59 @@ margin: 0 auto;
 } 
 .Content_two {
 display: flex;
-justify-content: center;
-align-content: center;
 margin-top: 98px;
-margin-left: 215px;
-margin-right: 215px;
-}
-.list_one {
+margin-left: auto;
+margin-right: auto;
 list-style: none;
-padding-right: 25px;
+margin-right: 25px;
+}
+
+.list_one_1stimg::before {
+display: block;
+content: "";
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;
+margin-right: 30px;
+background-image: url(/img/Bk-ground_img/antenna\ 1.png);
+}
+.list_one_2dimg::before {
+display: block;
+content: "";
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;
+margin-right: 30px;
+background-image: url(./img/Bk-ground_img/clock\ 1.png);
+}
+.list_one_3dimg::before {
+display: block;
+content: "";
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;  
+margin-right: 30px;
+background-image: url(./img/Bk-ground_img/diagram\ 1.png);  
+}
+.list_one_4thimg::before {
+display: block;
+content: "";
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;  
+background-image: url(./img/Bk-ground_img/astronaut\ 1.png);
 }
 .main_info_header {
 font-family: Roboto;
@@ -253,9 +298,8 @@ align-self: auto;
 .container_four {
 width: 1600px;
 height: 648px;
-margin: 0 auto;
 background: #F5F4FA;
-display: flexbox;
+margin-top: 100px;
 }
 
 .main_info_dscr_showoff {
@@ -309,6 +353,27 @@ text-align: center;
 letter-spacing: 0.03em;  
 color: #757575;
 margin-top: 10px;
+}
+.coda {
+display: block;
+height: 370px;
+}
+.main_info_dscr_coda {
+margin-top: 94px;
+margin-left: 668px;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+display: inline-block;
+margin-bottom: 50px;
+}
+.coda_list {
+list-style: none;
+display: flex;
 }
 
                              /* FOOTER */
@@ -364,7 +429,83 @@ margin-top: 9px;
 .nav_footer {
 display: block;
 margin-top: 60px;
-}      
+} 
+.Fotter_social_links{
+display: block;
+margin-left: 70px;
+margin-bottom: 100px;
+}
+.Footer_slog {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(255, 255, 255, 1); 
+margin-bottom: 20px; 
+} 
+.Footer_social_icons {
+list-style: none;
+display: flex;
+margin-bottom: 100px;
+}
+.footer_social_icons_inst:hover {
+background-color: rgba(33, 150, 243, 1);
+}
+.footer_social_icons_inst {
+display: block;
+height: 44px;
+width: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+background-image: url(./img/Social_media/instagram\ 2.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 10px;
+}
+.footer_social_icons_twi:hover {
+background-color:  rgba(33, 150, 243, 1);
+} 
+.footer_social_icons_twi {
+display: block;
+height: 44px;
+width: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+background-image: url(./img/Social_media/twitter\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 10px;
+} 
+.footer_social_icons_fb:hover {
+background-color:  rgba(33, 150, 243, 1);
+}  
+.footer_social_icons_fb {
+display: block;
+height: 44px;
+width: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+background-image: url(./img/Social_media/facebook\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 10px;
+}
+.footer_social_icons_linked:hover {
+background-color:  rgba(33, 150, 243, 1);
+}
+.footer_social_icons_linked {
+display: block;
+height: 44px;
+width: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+background-image: url(./img/Social_media/linkedin\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
 
                                             /* Portpholio */
 .Portpholio_main_block {
